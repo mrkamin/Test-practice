@@ -1,0 +1,23 @@
+{
+  "name": "test-practice",
+  "version": "1.0.0",
+  "description": "<!-- TABLE OF CONTENTS -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkamin/Test-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkamin/Test-practice/issues"
+  },
+  "homepage": "https://github.com/mrkamin/Test-practice#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
