@@ -31,3 +31,9 @@ const  reverseString = (string) => {
             return x / y
         }
     }
+
+    const captalize = (string) => {
+        return string.slice(0, 1).toUpperCase() + string.slice(1)
+    }
+    
+    module.exports = {stringLength, reverseString, Calculator, captalize }
