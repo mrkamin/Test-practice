@@ -1,15 +1,15 @@
 const {stringLength, reverseString, Calculator, captalize} = require('./index.js')
 
 test('Mohammad to be length of 8', () => 
-expect(stringLength('Mohammad')).tobe(8)
+expect(stringLength('Mohammad')).toBe(8)
 )
 
 test('MohammadRafiAmin to throw an error', () => 
-expect(stringLength('MohammadRafiAmin')).tobe('the string must be between 1 and 10 characters')
+expect(stringLength('MohammadRafiAmin')).toBe('the string must be between 1 and 10 characters')
 )
 
 test('Mohammad reversed to be dammahoM', () =>
-expect(reverseString('Mohammad')).tobe('dammahoM')
+expect(reverseString('Mohammad')).toBe('dammahoM')
 )
 
 describe('simple Calculator add method', () => {
@@ -38,13 +38,13 @@ describe('simple Calculator subtract method', () => {
 
 describe('simple Calculator divide method', () => {
     test('expects 15 / 15 to equal 1', () => {
-        expect(Calculator.divide(15, 15)).toBe(1)
+        expect(Calculator.divided(15, 15)).toBe(1)
     })
     test('expects -4 / -8 to equal 0.5', () => {
-        expect(Calculator.divide(-4, -8)).toBe(0.5)
+        expect(Calculator.divided(-4, -8)).toBe(0.5)
     })
     test('expects 0 / 0 to equal 0', () => {
-        expect(Calculator.divide(0, 0)).toBeFalsy()
+        expect(Calculator.divided(0, 0)).toBeFalsy()
     })
 })
 
