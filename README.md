@@ -29,22 +29,21 @@
 **[Test-Practice]** Write unit tests for a JavaScript app. Use AAA pattern for unit tests. Explain why testing code is important.👌
 
 ## 🛠 Built With <a name="built-with"></a>
-- HTML
-- Use semantic HTML tags.
-- Apply best practices in HTML code.
 - Apply JavaScript best practices and language style guides in code.
 - Use JavaScript to manipulate DOM elements.
-- Use JavaScript events.
-- Use objects to store and access data.
-- Communicate technical concepts to other technical people.
+- A simple culculator that Add, divided, multiply and subtract numbers.
+- A stringLength function that return a string and the string must be between 1 and 10 characters.
+- A unit tests used AAA pattern.
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-- **[Add_tasks]**
-- **[Remove_tasks]**
-- **[ave_in_local_storage]**
+- **[Ruturn A string]**
+- **[Add numbers]**
+- **[Multiply numbers]**
+- **[subtract numbers]**
+- **[Divided numbers]**
+- **[A unit test used AAA pattern]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +63,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Use `git clone git@github.com:mrkamin/ToDoList.git` to clone the repository using the HTTPS link into your local machine
+- Use `git@github.com:mrkamin/Test-practice.git` to clone the repository using the HTTPS link into your local machine
 
 ### Setup
 
@@ -104,11 +103,7 @@ To get a local copy up and running follow these simple steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add unique ID for each tasks]**
-- [ ] **[Add tasks to the taks list]**
-- [ ] **[edit tasks in the tasks list]**
-- [ ] **[delete tasks in the tasks list]**
-- [ ] **[delete all tasks in the tasks list]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +130,7 @@ If you like this project please support us by giving it a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank  in Behance for the original design idea: []().
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
